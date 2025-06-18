@@ -1,7 +1,10 @@
 # Rock-paper-scissor-
 A simple command-line Rock-Paper-Scissors game built using Python's random module and conditional logic.
+Python
 "rock 1 paper 2 scissor 3"
+
 import random
+
 computer= random.choice(["r","p","s"])
 dic={"r":"Rock","p":"Paper","s":"Scissor"}
 c=input("Enter r=Rock, p=Paper or s=Scissor: ").lower()
